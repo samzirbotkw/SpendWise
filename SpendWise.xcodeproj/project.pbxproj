@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5130EF332B2F62EC003E5602 /* SpendWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130EF322B2F62EC003E5602 /* SpendWiseApp.swift */; };
-		5130EF352B2F62EC003E5602 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130EF342B2F62EC003E5602 /* ContentView.swift */; };
 		5130EF372B2F62EF003E5602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5130EF362B2F62EF003E5602 /* Assets.xcassets */; };
 		5130EF3A2B2F62EF003E5602 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5130EF392B2F62EF003E5602 /* Preview Assets.xcassets */; };
 		5130EF442B2F62EF003E5602 /* SpendWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130EF432B2F62EF003E5602 /* SpendWiseTests.swift */; };
 		5130EF4E2B2F62EF003E5602 /* SpendWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130EF4D2B2F62EF003E5602 /* SpendWiseUITests.swift */; };
 		5130EF502B2F62EF003E5602 /* SpendWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130EF4F2B2F62EF003E5602 /* SpendWiseUITestsLaunchTests.swift */; };
+		5130EF602B2F65F0003E5602 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130EF5F2B2F65F0003E5602 /* Transaction.swift */; };
+		5130EF622B2F6D3B003E5602 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130EF612B2F6D3B003E5602 /* ViewModel.swift */; };
+		518B7DBE2B30ABD60068E66A /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518B7DBD2B30ABD60068E66A /* ListItem.swift */; };
+		518B7DC02B30C82C0068E66A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518B7DBF2B30C82C0068E66A /* Toast.swift */; };
+		518B7DC42B30EF360068E66A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 518B7DC32B30EF360068E66A /* Realm */; };
+		518B7DC62B30EF360068E66A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 518B7DC52B30EF360068E66A /* RealmSwift */; };
+		51F9653B2B30A55700735ACD /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F9653A2B30A55700735ACD /* Create.swift */; };
+		51F9653E2B30A5C000735ACD /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F9653D2B30A5C000735ACD /* List.swift */; };
+		51F965402B30A5FC00735ACD /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F9653F2B30A5FC00735ACD /* Update.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		5130EF2F2B2F62EC003E5602 /* SpendWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5130EF322B2F62EC003E5602 /* SpendWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendWiseApp.swift; sourceTree = "<group>"; };
-		5130EF342B2F62EC003E5602 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5130EF362B2F62EF003E5602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5130EF392B2F62EF003E5602 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5130EF3F2B2F62EF003E5602 /* SpendWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpendWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,13 @@
 		5130EF492B2F62EF003E5602 /* SpendWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpendWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5130EF4D2B2F62EF003E5602 /* SpendWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendWiseUITests.swift; sourceTree = "<group>"; };
 		5130EF4F2B2F62EF003E5602 /* SpendWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5130EF5F2B2F65F0003E5602 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		5130EF612B2F6D3B003E5602 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		518B7DBD2B30ABD60068E66A /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		518B7DBF2B30C82C0068E66A /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		51F9653A2B30A55700735ACD /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		51F9653D2B30A5C000735ACD /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		51F9653F2B30A5FC00735ACD /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518B7DC62B30EF360068E66A /* RealmSwift in Frameworks */,
+				518B7DC42B30EF360068E66A /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +110,10 @@
 		5130EF312B2F62EC003E5602 /* SpendWise */ = {
 			isa = PBXGroup;
 			children = (
+				5130EF5E2B2F6341003E5602 /* ViewModel */,
+				5130EF5D2B2F6337003E5602 /* Model */,
+				5130EF5C2B2F632C003E5602 /* View */,
 				5130EF322B2F62EC003E5602 /* SpendWiseApp.swift */,
-				5130EF342B2F62EC003E5602 /* ContentView.swift */,
 				5130EF362B2F62EF003E5602 /* Assets.xcassets */,
 				5130EF382B2F62EF003E5602 /* Preview Content */,
 			);
@@ -127,6 +145,34 @@
 			path = SpendWiseUITests;
 			sourceTree = "<group>";
 		};
+		5130EF5C2B2F632C003E5602 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F9653A2B30A55700735ACD /* Create.swift */,
+				51F9653D2B30A5C000735ACD /* List.swift */,
+				51F9653F2B30A5FC00735ACD /* Update.swift */,
+				518B7DBD2B30ABD60068E66A /* ListItem.swift */,
+				518B7DBF2B30C82C0068E66A /* Toast.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5130EF5D2B2F6337003E5602 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5130EF5F2B2F65F0003E5602 /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5130EF5E2B2F6341003E5602 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5130EF612B2F6D3B003E5602 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +189,10 @@
 			dependencies = (
 			);
 			name = SpendWise;
+			packageProductDependencies = (
+				518B7DC32B30EF360068E66A /* Realm */,
+				518B7DC52B30EF360068E66A /* RealmSwift */,
+			);
 			productName = SpendWise;
 			productReference = 5130EF2F2B2F62EC003E5602 /* SpendWise.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 5130EF262B2F62EC003E5602;
+			packageReferences = (
+				518B7DC22B30EF360068E66A /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 5130EF302B2F62EC003E5602 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5130EF352B2F62EC003E5602 /* ContentView.swift in Sources */,
+				5130EF602B2F65F0003E5602 /* Transaction.swift in Sources */,
+				51F965402B30A5FC00735ACD /* Update.swift in Sources */,
+				51F9653B2B30A55700735ACD /* Create.swift in Sources */,
+				518B7DBE2B30ABD60068E66A /* ListItem.swift in Sources */,
+				5130EF622B2F6D3B003E5602 /* ViewModel.swift in Sources */,
 				5130EF332B2F62EC003E5602 /* SpendWiseApp.swift in Sources */,
+				518B7DC02B30C82C0068E66A /* Toast.swift in Sources */,
+				51F9653E2B30A5C000735ACD /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +641,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		518B7DC22B30EF360068E66A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		518B7DC32B30EF360068E66A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 518B7DC22B30EF360068E66A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		518B7DC52B30EF360068E66A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 518B7DC22B30EF360068E66A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5130EF272B2F62EC003E5602 /* Project object */;
 }

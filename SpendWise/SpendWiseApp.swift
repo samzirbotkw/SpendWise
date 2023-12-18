@@ -11,7 +11,7 @@ import SwiftUI
 struct SpendWiseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CreateView(isPresented: .constant(true))
         }
     }
 }
